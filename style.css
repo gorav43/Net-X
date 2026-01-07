@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #050A1A, #001E3C);
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+h1 {
+  color: #00A8FF;
+  font-size: 28px;
+}
+
+#speed {
+  font-size: 36px;
+  color: #00A8FF;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #00A8FF;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #00A8FF;
+  border: none;
+  color: black;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(0, 168, 255, 0.15);
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+body.light {
+  background: #f2f6ff;
+  color: black;
+}
